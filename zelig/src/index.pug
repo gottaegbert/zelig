@@ -1,0 +1,22 @@
+script(src='https://unpkg.com/posenet-pointer@0.0.1')
+
+//- We'll inject video/canvas into here
+#debug
+
+//- About
+p
+  video(id="demo-video" src='https://i.imgur.com/3lBstel.mp4' autoplay controls loop width=600)
+p
+  button(onclick='startPosenetPointer()') 👋 Start Posenet Pointer
+p
+  small Model is ~3Mb, please allow a few moments on slow connections
+p(style='margin-top: 100px') Scroll by moving cursor down here 👇
+.pointer
+
+//- Filler so that we can scroll
+.dummy
+  each i in [0,1,2,3,4,5]
+    h1(style='margin-top: 300px') Dummy content for scrolling
+    p "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    p "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    p "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."

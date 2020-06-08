@@ -1,0 +1,29 @@
+.pointer {
+  pointer-events: none;
+  height: 20px;
+  width: 20px;
+  background: #ff6f00;
+  border-radius: 100%;
+  position: fixed;
+  left: 50%;
+  top: 50px;
+}
+#debug video {
+  visibility: hidden !important;
+}
+body {
+  background: #000000;
+  text-align: center;
+}
+button {
+  font-size: 24px;
+  padding: 20px;
+}
+.dummy {
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.5;
+}
+p{
+  color: #242943;
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../zelig/zelig/TheMatrix-gh-pages/.idea/TheMatrix-gh-pages.iml" filepath="$PROJECT_DIR$/../zelig/zelig/TheMatrix-gh-pages/.idea/TheMatrix-gh-pages.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../zelig/.idea/posenet-pointer-0basic-pointer.iml" filepath="$PROJECT_DIR$/../zelig/.idea/posenet-pointer-0basic-pointer.iml" />
+    </modules>
+  </component>
+</project>
